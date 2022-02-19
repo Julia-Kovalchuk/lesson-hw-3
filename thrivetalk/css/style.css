@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: Larsseit;
+  src: url(./larsseit_regular.ttf);
+}
+
+.container {
+  width: 1437px;
+  margin: auto;
+  font-size: 0;
+}
+
+.clearfix {
+  clear: both;
+  width: 525px;
+  height: 604px;
+  display: inline-block;
+  background-image: none;
+  background-image: url(../img/back-img.png);
+}
+
+.description {
+  width: calc(100% - 525px);
+  min-height: 604px;
+  padding-left: 178px;
+  padding-top: 151px;
+  padding-right: 180px;
+  vertical-align: top;
+  display: inline-block;
+  background-color: #62d0df;
+}
+
+.description__title {
+  font-family: Larsseit, sans-serif;
+  color: #ffffff;
+  font-style: bold;
+  font-size: 36px;
+  line-height: 65%;
+  letter-spacing: -0.6%;
+
+  padding-bottom: 75px;
+}
+
+.description__text {
+  font-family: Larsseit, sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 1px;
+
+  padding-bottom: 95px;
+}
+
+.description__text--bold {
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}

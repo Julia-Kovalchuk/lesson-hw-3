@@ -4,9 +4,10 @@
   box-sizing: border-box;
 }
 
+/*Указанный шрифт использовала, но он все-равно немного отличается от макета*/
 @font-face {
   font-family: Larsseit;
-  src: url(./larsseit_regular.ttf);
+  src: url(../fonts/larseit_regular.ttf);
 }
 
 .container {
@@ -27,9 +28,7 @@
 .description {
   width: calc(100% - 525px);
   min-height: 604px;
-  padding-left: 178px;
-  padding-top: 151px;
-  padding-right: 180px;
+  padding: 151px 180px 0px 178px;
   vertical-align: top;
   display: inline-block;
   background-color: #62d0df;

@@ -38,7 +38,10 @@
 
 .guide__description {
   margin-bottom: 40px;
-  width: 90%;
+}
+
+.guide--first .guide__description {
+  padding-right: 1em;
 }
 
 .guide--secondary {
@@ -49,6 +52,10 @@
   margin-left: 0;
   margin-right: 385px;
   text-align: right;
+}
+
+.guide--secondary .guide__description {
+  padding-left: 2em;
 }
 
 .guide--secondary .guide__picture {

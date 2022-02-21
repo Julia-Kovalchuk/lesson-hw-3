@@ -16,8 +16,7 @@
   font-size: 0;
 }
 
-.clearfix {
-  clear: both;
+.description__none {
   width: 525px;
   height: 604px;
   display: inline-block;

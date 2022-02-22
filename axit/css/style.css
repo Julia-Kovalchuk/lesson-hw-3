@@ -5,7 +5,7 @@
 }
 
 @font-face {
-  font-family: Open Sans;
+  font-family: "Open Sans";
   src: url(../fonts/open-sans/OpenSans-VariableFont_wdth\wght.ttf);
 }
 
@@ -29,7 +29,7 @@ li {
   padding: 10px 83px 11px 83px;
   text-align: center;
 
-  font-family: Open Sans, sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 14px;
   line-height: 19px;
   color: #333333;
@@ -64,7 +64,7 @@ li {
 .content__title {
   padding: 41px 0 41px 0;
 
-  font-family: Open Sans, sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 30px;
   line-height: 41px;
   color: #000000;
@@ -93,7 +93,8 @@ li {
   height: 58px;
   text-align: center;
   border: none;
-  font-family: Open Sans, sans-serif;
+
+  font-family: "Open Sans", sans-serif;
   font-size: 18px;
   line-height: 25px;
   font-weight: 600; /*В макете указано 600, но по виду на макете больше похоже на 400*/
@@ -111,5 +112,4 @@ li {
   border-collapse: collapse;
   border-radius: 5px 5px 0 0;
   border-bottom: none;
-  z-index: -1px;
 }

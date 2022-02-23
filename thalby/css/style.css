@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body {
+  font-family: Roboto, sans-serif;
+}
+
+.guide {
+  background-color: rgba(204, 204, 204, 0.3);
+  padding: 76px 0px 51px 0px;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.container {
+  max-width: 1060px;
+  margin: auto;
+}
+
+.guide__picture {
+  float: left;
+  width: 385px;
+}
+
+.guide__content {
+  margin-left: 385px;
+  padding: 70px 50px;
+}
+
+.guide__title {
+  margin-bottom: 40px;
+}
+
+.guide__description {
+  margin-bottom: 40px;
+}
+
+.guide--first .guide__description {
+  padding-right: 1em;
+}
+
+.guide--secondary {
+  background-color: rgba(204, 204, 204, 0.6);
+}
+
+.guide--secondary .guide__content {
+  margin-left: 0;
+  margin-right: 385px;
+  text-align: right;
+}
+
+.guide--secondary .guide__description {
+  padding-left: 2em;
+}
+
+.guide--secondary .guide__picture {
+  float: right;
+  width: 385px;
+}
+
+h1,
+.guide__description,
+a {
+  font-family: Roboto, sans-serif;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+}
+
+.guide__description {
+  font-size: 36px;
+  line-height: 42px;
+}
+
+a {
+  color: black;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 20px;
+}

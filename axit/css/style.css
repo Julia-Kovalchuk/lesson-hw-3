@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url(../fonts/open-sans/OpenSans-VariableFont_wdth\wght.ttf);
+}
+
+@font-face {
+  font-family: Raleway;
+  src: url(../fonts/Raleway/Raleway-VariableFont_wght.ttf);
+}
+
+li {
+  list-style-type: none;
+}
+
+.tabs {
+  width: 1510px; /*как правильнее задавать ширину всего макета? в абсолютных (1510px или относительный величинах (100%)?*/
+  padding: 98px 170px 50px 170px;
+  font-size: 0;
+}
+
+.tab__item {
+  display: inline-block;
+  padding: 10px 83px 11px 83px;
+  text-align: center;
+
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  line-height: 19px;
+  color: #333333;
+  text-transform: uppercase;
+}
+
+.content,
+.content--none {
+  display: inline-block;
+  border: 1px solid #c6cbcd;
+  border-collapse: collapse;
+}
+
+.content--none {
+  min-width: 470px;
+  min-height: 500px;
+  background-image: none;
+  background-image: url(../img/statue.png);
+  vertical-align: top;
+}
+
+.content {
+  padding-left: 100px;
+  width: calc(100% - 470px);
+}
+
+.content__title,
+.content__deskription {
+  margin-bottom: 27px;
+}
+
+.content__title {
+  padding: 41px 0 41px 0;
+
+  font-family: "Open Sans", sans-serif;
+  font-size: 30px;
+  line-height: 41px;
+  color: #000000;
+  font-weight: bold;
+}
+
+.content__text {
+  margin-right: 30px;
+
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+}
+
+.content__text:last-child {
+  margin-bottom: 27px;
+}
+
+.content__text:first-child {
+  margin-bottom: 19px;
+}
+
+.button {
+  width: 270px;
+  height: 58px;
+  text-align: center;
+  border: none;
+
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 600; /*В макете указано 600, но по виду на макете больше похоже на 400*/
+  color: #ffffff;
+  text-transform: capitalize;
+}
+
+.content__button {
+  margin-bottom: 54px;
+  background-color: #ec7979;
+}
+
+.tab__item:first-child {
+  border: 1px solid #c6cbcd;
+  border-collapse: collapse;
+  border-radius: 5px 5px 0 0;
+  border-bottom: none;
+}

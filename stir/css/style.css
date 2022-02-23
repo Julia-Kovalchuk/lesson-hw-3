@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1440px;
+  padding-right: 41px;
+  padding-left: 41px;
+  margin: auto;
+  background-color: #191919;
+  font-size: 0;
+}
+
+.block {
+  display: inline-block;
+  vertical-align: middle;
+  background-image: none;
+  padding: 38px 23px 38px 23px;
+  width: 410px;
+  height: 560px;
+}
+
+.block--left {
+  background-image: none;
+  background-image: url(../img/dogs.png);
+}
+
+.block--center {
+  background-image: none;
+  background-image: url(../img/Cactus.png);
+  margin: 0 64px 0 64px;
+}
+.block--right {
+  background-image: none;
+  background-image: url(../img/men.png);
+}
+
+.block__text {
+  border: 2px solid #ffffff;
+  padding: 200px 0px 215px 0px;
+
+  font-family: ROBOTO, sans-serif;
+  font-size: 64px;
+  text-align: center;
+  color: #ffffff;
+  line-height: 68px;
+}
+
+.block__text--left {
+  margin: 0 -8px 0 -4px;
+}
+.block__text--center {
+  padding: 167px 0px 181px 0px;
+}
